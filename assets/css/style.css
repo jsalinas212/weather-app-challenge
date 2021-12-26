@@ -1,5 +1,109 @@
 :root {
-    margin: 0;
-    padding: 0;
 }
 
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Style */
+
+header {
+    padding: 5px 0;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(0, 7, 48) 0%, rgb(0, 63, 136) 100%);
+    color: whitesmoke;
+}
+
+/* Main Style */
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Side Section Style */
+
+.side-section {
+    flex-basis: 20%;
+    padding: 10px 20px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-txt {
+    padding: 10px 0;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.search-btn {
+    margin-top: 15px;
+    padding: 10px 0;
+    font-size: 22px;
+    background-color: rgb(0, 90, 192);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+}
+
+.city-list {
+    margin-top: 40px;
+    border-top: 2px solid black;
+}
+
+.city-btn {
+    margin-top: 15px;
+    padding: 10px 0;
+    font-size: 22px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+}
+
+/* Main Section Style */
+
+.main-section {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+.city-info {
+    border: 2px solid black;
+    padding: 0 0 20px 25px;
+}
+
+.forecast-display {
+    margin-top: 45px;
+}
+
+.forecast-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-card {
+    padding: 5px 3%;
+    background-color: rgb(46, 67, 95);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.forecast-card h4 {
+    font-size: 18px;
+}
+
+/* Utility Style */
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}

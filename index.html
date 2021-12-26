@@ -5,22 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-
+        <h1>Weather Dashboard</h1>
     </header>
     <!-- Main -->
     <main>
-        <!-- Sections -->
-        <section>
-
+        <!-- Sidebar Section -->
+        <section class="side-section flex-col">
+            <h2>Search for a City:</h2>
+            <form class="search-form flex-col">
+                <input class="search-txt" type="text" name="city-name" placeholder="Dallas">
+                <button class="search-btn">Search</button>
+            </form>
+            <div class="city-list flex-col">
+                <button class="city-btn">Dallas</button>
+                <button class="city-btn">San Antonio</button>
+                <button class="city-btn">Phoenix</button>
+                <button class="city-btn">Denver</button>
+                <button class="city-btn">McAllen</button>
+                <button class="city-btn">New York</button>
+                <button class="city-btn">San Fransisco</button>
+            </div>
+        </section>
+        <!-- Content Section -->
+        <section class="main-section flex-col">
+            <div class="city-info flex-col">
+                <h2>Dallas (4/4/2021)</h2>
+                <p>Temp: 72.76 °F</p>
+                <p>Wind: 2000 MPH</p>
+                <p>Humidity: 78%</p>
+                <p>UV Index: Number</p>
+            </div>
+            <div class="forecast-display">
+                <h3>5-Day Forecast:</h3>
+                <!-- 5-Day Forecast Cards -->
+                <div class="forecast-cards">
+                    <div class="forecast-card flex-col">
+                        <h4>3/3/2021</h4>
+                        <p>⛅</p>
+                        <p>Temp: 72.76 °F</p>
+                        <p>Wind: 2000 MPH</p>
+                        <p>Humidity: 78%</p>
+                    </div>
+                    <div class="forecast-card">
+                        <h4>3/3/2021</h4>
+                        <p>⛅</p>
+                        <p>Temp: 72.76 °F</p>
+                        <p>Wind: 2000 MPH</p>
+                        <p>Humidity: 78%</p>
+                    </div>
+                    <div class="forecast-card">
+                        <h4>3/3/2021</h4>
+                        <p>⛅</p>
+                        <p>Temp: 72.76 °F</p>
+                        <p>Wind: 2000 MPH</p>
+                        <p>Humidity: 78%</p>
+                    </div>
+                    <div class="forecast-card">
+                        <h4>3/3/2021</h4>
+                        <p>⛅</p>
+                        <p>Temp: 72.76 °F</p>
+                        <p>Wind: 2000 MPH</p>
+                        <p>Humidity: 78%</p>
+                    </div>
+                    <div class="forecast-card">
+                        <h4>3/3/2021</h4>
+                        <p>⛅</p>
+                        <p>Temp: 72.76 °F</p>
+                        <p>Wind: 2000 MPH</p>
+                        <p>Humidity: 78%</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <!-- Footer -->
-    <footer>
-
-    </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
